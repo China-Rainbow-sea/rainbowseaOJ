@@ -24,6 +24,7 @@ export class WxMpControllerService {
   ): CancelablePromise<string> {
     return __request(OpenAPI, {
       method: "GET",
+
       url: "/api/",
       query: {
         echostr: echostr,
@@ -60,8 +61,7 @@ export class WxMpControllerService {
    * setMenu
    * @returns string OK
    * @throws ApiError
-   */
-  public static setMenuUsingGet(): CancelablePromise<string> {
+   */ public static setMenuUsingGet(): CancelablePromise<string> {
     return __request(OpenAPI, {
       method: "GET",
       url: "/api/setMenu",

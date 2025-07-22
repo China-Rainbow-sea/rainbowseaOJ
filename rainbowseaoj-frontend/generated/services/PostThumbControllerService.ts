@@ -17,8 +17,7 @@ export class PostThumbControllerService {
    * @throws ApiError
    */
   public static doThumbUsingPost(
-    postThumbAddRequest: PostThumbAddRequest
-  ): CancelablePromise<BaseResponse_int_ | any> {
+    postThumbAddRequest: PostThumbAddRequest): CancelablePromise<BaseResponse_int_ | any> {
     return __request(OpenAPI, {
       method: "POST",
       url: "/api/post_thumb/",

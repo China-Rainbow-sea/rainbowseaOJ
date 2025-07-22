@@ -3,7 +3,7 @@
     <a-layout style="min-height: 100vh">
       <a-layout-header class="header">
         <a-space>
-          <img src="../assets/logo.png" class="logo" />
+          <img class="logo" src="../assets/logo.png" />
           <div>在线OJ</div>
         </a-space>
       </a-layout-header>

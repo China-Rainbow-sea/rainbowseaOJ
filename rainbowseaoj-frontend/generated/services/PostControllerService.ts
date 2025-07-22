@@ -17,7 +17,7 @@ import { request as __request } from "../core/request";
 
 export class PostControllerService {
   /**
-   * addPost
+   *addPost
    * @param postAddRequest postAddRequest
    * @returns BaseResponse_long_ OK
    * @returns any Created
@@ -60,8 +60,7 @@ export class PostControllerService {
     });
   }
 
-  /**
-   * editPost
+  /**editPost
    * @param postEditRequest postEditRequest
    * @returns BaseResponse_boolean_ OK
    * @returns any Created
