@@ -18,7 +18,6 @@ import type { UserUpdateMyRequest } from "../models/UserUpdateMyRequest";
 import type { UserUpdateRequest } from "../models/UserUpdateRequest";
 import type { CancelablePromise } from "../core/CancelablePromise";
 import { OpenAPI } from "../core/OpenAPI";
-
 import { request as __request } from "../core/request";
 
 export class UserControllerService {

@@ -17,7 +17,8 @@ export class PostFavourControllerService {
    * @param postFavourAddRequest postFavourAddRequest
    * @returns BaseResponse_int_ OK
    * @returns any Created
-   * @throws ApiError*/
+   * @throws ApiError
+   */
   public static doPostFavourUsingPost(
     postFavourAddRequest: PostFavourAddRequest
   ): CancelablePromise<BaseResponse_int_ | any> {
@@ -61,7 +62,8 @@ export class PostFavourControllerService {
    * @returns BaseResponse_Page_PostVO_ OK
    * @returns any Created
    * @throws ApiError
-   */ public static listMyFavourPostByPageUsingPost(
+   */
+  public static listMyFavourPostByPageUsingPost(
     postQueryRequest: PostQueryRequest
   ): CancelablePromise<BaseResponse_Page_PostVO_ | any> {
     return __request(OpenAPI, {
