@@ -1,0 +1,13 @@
+version: '3'
+services:
+  rainbowseaoj-code-sandbox-master:
+    container_name: rainbowseaoj-code-sandbox-master
+    build:
+      context: ./rainbowseaoj-code-sandbox-master
+      dockerfile: Dockerfile
+    ports:
+      - "9090:9090"
+    networks:
+      - mynetwork
+networks:
+  mynetwork:
